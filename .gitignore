@@ -1,0 +1,32 @@
+.env
+*.log
+logs/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+parquet/
+*.parquet
+# VS Code Einstellungen
+.vscode/
+.history/
+
+#runtime
+.temp
+
+#dokumente
+*.xlsx
+
+# Test-Ordner (Pytest Cache)
+.pytest_cache/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
